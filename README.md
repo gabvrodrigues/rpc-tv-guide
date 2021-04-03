@@ -1,24 +1,13 @@
-# rpc-tv-schedule
+# Guia de Programação RPC
+Projeto utilizando VueJS para visualização da grade diária de programação da RPC.
 
-## Project setup
+## Configuração do projeto
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile em modo de desenvolvimento
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Após isso é possível acessar o projeto através de localhost:8080
