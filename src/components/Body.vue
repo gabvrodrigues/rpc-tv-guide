@@ -41,7 +41,7 @@ export default {
 	methods: {
 		getProgrammeData() {
 			this.axios
-				.get(`programmes/${process.env.VUE_APP_RPC_ID}?date=${this.selectedDate}`, {
+				.get(`https://epg-api.video.globo.com/programmes/${process.env.VUE_APP_RPC_ID}?date=${this.selectedDate}`, {
 					headers: {
 						'Content-Type': 'application/json',
 					},
