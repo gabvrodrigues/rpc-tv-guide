@@ -25,7 +25,7 @@ export default {
 	#logo {
 		left: 40px;
 		position: absolute;
-		width: 11vw
+		width: 10vw
 	}
 
   @media (max-width: 992px){

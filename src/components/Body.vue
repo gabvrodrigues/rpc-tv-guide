@@ -35,7 +35,6 @@ export default {
 		};
 	},
 	mounted() {
-		// const today = new Date().toISOString().slice(0, 10);
 		this.selectedDate = moment().format('YYYY-MM-DD');
 		this.getProgrammeData();
 	},
@@ -68,7 +67,6 @@ export default {
   padding: 0 7vw;
 	display: flex;
   flex-direction: column;
-	/* background: #efefef; */
 }
 
 @media (max-width: 992px){
